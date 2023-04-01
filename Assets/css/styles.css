@@ -1,0 +1,36 @@
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --fondo:#2a2ac7;
+    --letra: #7776c2;
+    --botones: #0F3460;
+    --blanco:white;
+    }
+
+@media  screen and (min-width: 768px)and (max-width:1023px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+.esquerda .contact-text .formcontato .contactform
+{   height: 25vh;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: center;
+       }
+       .contact-img
+       {   height: 25vh;
+           align-items: center;
+              }
+
+@media screen and (max-width:767px) {
+    html{font-size: 13px; }  
+}
